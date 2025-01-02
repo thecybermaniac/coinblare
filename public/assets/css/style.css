@@ -1,0 +1,38 @@
+.striped {
+    border: 1px rgb(118, 116, 116);
+    border-style: dashed;
+    border-radius: 5px;
+    height: 170px;
+}
+
+.file-container {
+    position: relative;
+}
+
+.file2 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 165px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.message{
+    position: absolute;
+    top: 50px;
+    left: 175px;
+}
+
+.select {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    padding: 5px;
+}
